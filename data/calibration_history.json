@@ -1,0 +1,152 @@
+[
+  {
+    "session_id": "CAL-20260402-152954",
+    "timestamp": "2026-04-02T15:29:54.975423",
+    "dut_id": {
+      "manufacturer": "OpenCharacterize",
+      "model": "VADC-12B-successive_approximation",
+      "serial": "SIM-0042",
+      "firmware": "1.0.0"
+    },
+    "overall_pass": false,
+    "max_error_mv": 32.045,
+    "notes": "",
+    "reference_points": [
+      {
+        "reference_voltage": 0.5,
+        "measured_code_mean": 605.622,
+        "measured_voltage": 0.487928,
+        "error_mv": -12.072,
+        "error_pct": -2.414,
+        "timestamp": "2026-04-02T15:29:54.974674",
+        "pass_threshold_mv": 15.0,
+        "passed": true
+      },
+      {
+        "reference_voltage": 1.0,
+        "measured_code_mean": 1232.674,
+        "measured_voltage": 0.993121,
+        "error_mv": -6.879,
+        "error_pct": -0.688,
+        "timestamp": "2026-04-02T15:29:54.974836",
+        "pass_threshold_mv": 15.0,
+        "passed": true
+      },
+      {
+        "reference_voltage": 1.65,
+        "measured_code_mean": 2053.139,
+        "measured_voltage": 1.65414,
+        "error_mv": 4.14,
+        "error_pct": 0.251,
+        "timestamp": "2026-04-02T15:29:54.974984",
+        "pass_threshold_mv": 15.0,
+        "passed": true
+      },
+      {
+        "reference_voltage": 2.0,
+        "measured_code_mean": 2494.365,
+        "measured_voltage": 2.00962,
+        "error_mv": 9.62,
+        "error_pct": 0.481,
+        "timestamp": "2026-04-02T15:29:54.975122",
+        "pass_threshold_mv": 15.0,
+        "passed": true
+      },
+      {
+        "reference_voltage": 2.5,
+        "measured_code_mean": 3128.105,
+        "measured_voltage": 2.520202,
+        "error_mv": 20.202,
+        "error_pct": 0.808,
+        "timestamp": "2026-04-02T15:29:54.975255",
+        "pass_threshold_mv": 15.0,
+        "passed": false
+      },
+      {
+        "reference_voltage": 3.0,
+        "measured_code_mean": 3763.411,
+        "measured_voltage": 3.032045,
+        "error_mv": 32.045,
+        "error_pct": 1.068,
+        "timestamp": "2026-04-02T15:29:54.975391",
+        "pass_threshold_mv": 15.0,
+        "passed": false
+      }
+    ]
+  },
+  {
+    "session_id": "CAL-20260402-153453",
+    "timestamp": "2026-04-02T15:34:53.230694",
+    "dut_id": {
+      "manufacturer": "OpenCharacterize",
+      "model": "VADC-12B-successive_approximation",
+      "serial": "SIM-0042",
+      "firmware": "1.0.0"
+    },
+    "overall_pass": false,
+    "max_error_mv": 32.045,
+    "notes": "",
+    "reference_points": [
+      {
+        "reference_voltage": 0.5,
+        "measured_code_mean": 605.622,
+        "measured_voltage": 0.487928,
+        "error_mv": -12.072,
+        "error_pct": -2.414,
+        "timestamp": "2026-04-02T15:34:53.229974",
+        "pass_threshold_mv": 15.0,
+        "passed": true
+      },
+      {
+        "reference_voltage": 1.0,
+        "measured_code_mean": 1232.674,
+        "measured_voltage": 0.993121,
+        "error_mv": -6.879,
+        "error_pct": -0.688,
+        "timestamp": "2026-04-02T15:34:53.230129",
+        "pass_threshold_mv": 15.0,
+        "passed": true
+      },
+      {
+        "reference_voltage": 1.65,
+        "measured_code_mean": 2053.139,
+        "measured_voltage": 1.65414,
+        "error_mv": 4.14,
+        "error_pct": 0.251,
+        "timestamp": "2026-04-02T15:34:53.230268",
+        "pass_threshold_mv": 15.0,
+        "passed": true
+      },
+      {
+        "reference_voltage": 2.0,
+        "measured_code_mean": 2494.365,
+        "measured_voltage": 2.00962,
+        "error_mv": 9.62,
+        "error_pct": 0.481,
+        "timestamp": "2026-04-02T15:34:53.230400",
+        "pass_threshold_mv": 15.0,
+        "passed": true
+      },
+      {
+        "reference_voltage": 2.5,
+        "measured_code_mean": 3128.105,
+        "measured_voltage": 2.520202,
+        "error_mv": 20.202,
+        "error_pct": 0.808,
+        "timestamp": "2026-04-02T15:34:53.230531",
+        "pass_threshold_mv": 15.0,
+        "passed": false
+      },
+      {
+        "reference_voltage": 3.0,
+        "measured_code_mean": 3763.411,
+        "measured_voltage": 3.032045,
+        "error_mv": 32.045,
+        "error_pct": 1.068,
+        "timestamp": "2026-04-02T15:34:53.230665",
+        "pass_threshold_mv": 15.0,
+        "passed": false
+      }
+    ]
+  }
+]

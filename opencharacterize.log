@@ -1,0 +1,42 @@
+Calibration verification
+  Points: [0.5, 1.0, 1.65, 2.0, 2.5, 3.0]
+  Threshold: +/-15.0 mV
+  0.500V -> 0.4879V  (-12.1 mV)  [PASS]
+  1.000V -> 0.9931V  (-6.9 mV)  [PASS]
+  1.650V -> 1.6541V  (+4.1 mV)  [PASS]
+  2.000V -> 2.0096V  (+9.6 mV)  [PASS]
+  2.500V -> 2.5202V  (+20.2 mV)  [FAIL]
+  3.000V -> 3.0320V  (+32.0 mV)  [FAIL]
+  Result: FAIL  (max error: 32.0 mV)
+Sequence: Full ADC Characterization
+DUT: {'manufacturer': 'OpenCharacterize', 'model': 'VADC-12B-successive_approximation', 'serial': 'SIM-0042', 'firmware': '1.0.0'}
+Steps: 7
+  [1/7] RUN   Ramp Linearity Test
+  [2/7] RUN   DC Noise — Mid-Scale
+  [3/7] RUN   DC Noise — Quarter-Scale
+  [4/7] RUN   DC Noise — Three-Quarter-Scale
+  [5/7] RUN   Dynamic — 1 kHz Sine
+  [6/7] RUN   Dynamic — 10 kHz Sine
+  [7/7] RUN   Sine Histogram (Code Density)
+Sequence complete -- FAIL
+Calibration verification
+  Points: [0.5, 1.0, 1.65, 2.0, 2.5, 3.0]
+  Threshold: +/-15.0 mV
+  0.500V -> 0.4879V  (-12.1 mV)  [PASS]
+  1.000V -> 0.9931V  (-6.9 mV)  [PASS]
+  1.650V -> 1.6541V  (+4.1 mV)  [PASS]
+  2.000V -> 2.0096V  (+9.6 mV)  [PASS]
+  2.500V -> 2.5202V  (+20.2 mV)  [FAIL]
+  3.000V -> 3.0320V  (+32.0 mV)  [FAIL]
+  Result: FAIL  (max error: 32.0 mV)
+Sequence: Full ADC Characterization
+DUT: {'manufacturer': 'OpenCharacterize', 'model': 'VADC-12B-successive_approximation', 'serial': 'SIM-0042', 'firmware': '1.0.0'}
+Steps: 7
+  [1/7] RUN   Ramp Linearity Test
+  [2/7] RUN   DC Noise — Mid-Scale
+  [3/7] RUN   DC Noise — Quarter-Scale
+  [4/7] RUN   DC Noise — Three-Quarter-Scale
+  [5/7] RUN   Dynamic — 1 kHz Sine
+  [6/7] RUN   Dynamic — 10 kHz Sine
+  [7/7] RUN   Sine Histogram (Code Density)
+Sequence complete -- FAIL
